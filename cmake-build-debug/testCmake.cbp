@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="testCmake"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JetBrains/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JetBrains/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JetBrains/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JetBrains/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testCmake.elf">
+				<Option output="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmake-build-debug/testCmake.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/USB_HOST/App"/>
+					<Add directory="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/USB_HOST/Target"/>
+					<Add directory="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Core/Inc"/>
+					<Add directory="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Middlewares/ST/STM32_USB_Host_Library/Core/Inc"/>
+					<Add directory="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc"/>
+					<Add directory="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/CMSIS/Include"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/include/c++/12.2.0"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/include/c++/12.2.0/arm-none-eabi"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/include/c++/12.2.0/backward"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/include"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/include-fixed"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JetBrains/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 testCmake.elf"/>
+					<CompileFile command="C:/PROGRA~1/JetBrains/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JetBrains/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JetBrains/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testCmake.elf/fast">
+				<Option output="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmake-build-debug/testCmake.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/USB_HOST/App"/>
+					<Add directory="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/USB_HOST/Target"/>
+					<Add directory="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Core/Inc"/>
+					<Add directory="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Middlewares/ST/STM32_USB_Host_Library/Core/Inc"/>
+					<Add directory="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc"/>
+					<Add directory="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/CMSIS/Include"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/include/c++/12.2.0"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/include/c++/12.2.0/arm-none-eabi"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/include/c++/12.2.0/backward"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/include"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/include-fixed"/>
+					<Add directory="c:\program files (x86)\arm gnu toolchain arm-none-eabi\12.2 mpacbti-bet1\bin\../lib/gcc/arm-none-eabi/12.2.0/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JetBrains/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 testCmake.elf/fast"/>
+					<CompileFile command="C:/PROGRA~1/JetBrains/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JetBrains/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JetBrains/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JetBrains/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JetBrains/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JetBrains/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JetBrains/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JetBrains/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JetBrains/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JetBrains/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JetBrains/CLion 2022.2.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Core/Inc/main.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Core/Inc/stm32f4xx_it.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Core/Src/main.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Core/Src/stm32f4xx_it.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Core/Src/syscalls.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Core/Src/sysmem.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Core/Src/system_stm32f4xx.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Core/Startup/startup_stm32f407vgtx.s">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/CMSIS/LICENSE.txt">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s_ex.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc/usbh_cdc.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_core.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ctlreq.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_def.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_ioreq.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Middlewares/ST/STM32_USB_Host_Library/Core/Inc/usbh_pipes.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_core.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/Middlewares/ST/STM32_USB_Host_Library/Core/Src/usbh_pipes.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/STM32F407VGTX_FLASH.ld">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/USB_HOST/App/usb_host.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/USB_HOST/App/usb_host.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/USB_HOST/Target/usbh_conf.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/USB_HOST/Target/usbh_conf.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/USB_HOST/Target/usbh_platform.c">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/USB_HOST/Target/usbh_platform.h">
+			<Option target="testCmake.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

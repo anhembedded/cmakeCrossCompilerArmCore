@@ -1,0 +1,87 @@
+﻿  Building Custom Rule C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/CMakeLists.txt
+cl : command line  warning D9035: option 'Og' has been deprecated and will be removed in a future release
+cl : command line  warning D9002: ignoring unknown option '-mcpu=cortex-m4'
+cl : command line  warning D9002: ignoring unknown option '-mthumb'
+cl : command line  warning D9002: ignoring unknown option '-mthumb-interwork'
+cl : command line  warning D9002: ignoring unknown option '-ffunction-sections'
+cl : command line  warning D9002: ignoring unknown option '-fdata-sections'
+cl : command line  warning D9002: ignoring unknown option '-fno-common'
+cl : command line  warning D9002: ignoring unknown option '-fmessage-length=0'
+cl : command line  warning D9002: ignoring unknown option '-g'
+  main.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  stm32f4xx_hal_msp.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  stm32f4xx_it.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  syscalls.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Core\Src\syscalls.c(30,1): fatal  error C1083: Cannot open include file: 'sys/time.h': No such file or directory
+  sysmem.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Core\Src\sysmem.c(58,51): warning C4311: 'type cast': pointer truncation from 'uint8_t *' to 'uint32_t'
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Core\Src\sysmem.c(58,79): warning C4311: 'type cast': pointer truncation from 'uint32_t *' to 'uint32_t'
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Core\Src\sysmem.c(59,51): warning C4312: 'type cast': conversion from 'const uint32_t' to 'uint8_t *' of greater size
+  system_stm32f4xx.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  stm32f4xx_hal.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  stm32f4xx_hal_cortex.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  stm32f4xx_hal_dma.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  stm32f4xx_hal_dma_ex.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  stm32f4xx_hal_exti.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  stm32f4xx_hal_flash.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  stm32f4xx_hal_flash_ex.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  stm32f4xx_hal_flash_ramfunc.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  stm32f4xx_hal_gpio.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  stm32f4xx_hal_hcd.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  stm32f4xx_hal_i2c.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  stm32f4xx_hal_i2c_ex.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  stm32f4xx_hal_i2s.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  stm32f4xx_hal_i2s_ex.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  Generating Code...
+  Compiling...
+  stm32f4xx_hal_pwr.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  stm32f4xx_hal_pwr_ex.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  stm32f4xx_hal_rcc.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  stm32f4xx_hal_rcc_ex.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  stm32f4xx_hal_spi.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  stm32f4xx_hal_tim.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  stm32f4xx_hal_tim_ex.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  stm32f4xx_ll_usb.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  usbh_cdc.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  usbh_core.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  usbh_ctlreq.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  usbh_ioreq.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  usbh_pipes.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  usb_host.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  usbh_conf.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  usbh_platform.c
+C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h(261,1): fatal  error C1189: #error:  Unknown compiler.
+  Generating Code...

@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1D61D0C7-5B6D-31AD-A147-F5F18EA038E6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>testCmake.elf</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeBuild\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">testCmake.elf.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">testCmake</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.elf</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeBuild\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">testCmake.elf.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">testCmake</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.elf</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeBuild\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">testCmake.elf.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">testCmake</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.elf</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeBuild\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">testCmake.elf.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">testCmake</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.elf</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\App;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\Target;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Class\CDC\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);ARM_MATH_CM4;ARM_MATH_MATRIX_CHECK;ARM_MATH_ROUNDING;DEBUG;USE_HAL_DRIVER;STM32F407xx;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);ARM_MATH_CM4;ARM_MATH_MATRIX_CHECK;ARM_MATH_ROUNDING;DEBUG;USE_HAL_DRIVER;STM32F407xx;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\App;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\Target;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Class\CDC\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\App;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\Target;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Class\CDC\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Building C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/testCmake.hex	Building C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/testCmake.bin</Message>
+      <Command>setlocal
+arm-none-eabi-objcopy -Oihex C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/Debug/testCmake.elf C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/testCmake.hex
+if %errorlevel% neq 0 goto :cmEnd
+arm-none-eabi-objcopy -Obinary C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/Debug/testCmake.elf C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/testCmake.bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies></AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mfloat-abi=hard -mfpu=fpv4-sp-d16 -Wl,-gc-sections,--print-memory-usage,-Map=C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/testCmake.map -mcpu=cortex-m4 -mthumb -mthumb-interwork -T C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/STM32F407VGTX_FLASH.ld</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ProgramDataBaseFile>C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/Debug/testCmake.elf.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\App;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\Target;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Class\CDC\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);ARM_MATH_CM4;ARM_MATH_MATRIX_CHECK;ARM_MATH_ROUNDING;DEBUG;USE_HAL_DRIVER;STM32F407xx;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);ARM_MATH_CM4;ARM_MATH_MATRIX_CHECK;ARM_MATH_ROUNDING;DEBUG;USE_HAL_DRIVER;STM32F407xx;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\App;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\Target;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Class\CDC\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\App;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\Target;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Class\CDC\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Building C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/testCmake.hex	Building C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/testCmake.bin</Message>
+      <Command>setlocal
+arm-none-eabi-objcopy -Oihex C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/Release/testCmake.elf C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/testCmake.hex
+if %errorlevel% neq 0 goto :cmEnd
+arm-none-eabi-objcopy -Obinary C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/Release/testCmake.elf C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/testCmake.bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies></AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mfloat-abi=hard -mfpu=fpv4-sp-d16 -Wl,-gc-sections,--print-memory-usage,-Map=C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/testCmake.map -mcpu=cortex-m4 -mthumb -mthumb-interwork -T C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/STM32F407VGTX_FLASH.ld</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ProgramDataBaseFile>C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/Release/testCmake.elf.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\App;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\Target;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Class\CDC\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);ARM_MATH_CM4;ARM_MATH_MATRIX_CHECK;ARM_MATH_ROUNDING;DEBUG;USE_HAL_DRIVER;STM32F407xx;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);ARM_MATH_CM4;ARM_MATH_MATRIX_CHECK;ARM_MATH_ROUNDING;DEBUG;USE_HAL_DRIVER;STM32F407xx;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\App;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\Target;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Class\CDC\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\App;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\Target;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Class\CDC\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Building C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/testCmake.hex	Building C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/testCmake.bin</Message>
+      <Command>setlocal
+arm-none-eabi-objcopy -Oihex C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/MinSizeRel/testCmake.elf C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/testCmake.hex
+if %errorlevel% neq 0 goto :cmEnd
+arm-none-eabi-objcopy -Obinary C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/MinSizeRel/testCmake.elf C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/testCmake.bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies></AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mfloat-abi=hard -mfpu=fpv4-sp-d16 -Wl,-gc-sections,--print-memory-usage,-Map=C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/testCmake.map -mcpu=cortex-m4 -mthumb -mthumb-interwork -T C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/STM32F407VGTX_FLASH.ld</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ProgramDataBaseFile>C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/MinSizeRel/testCmake.elf.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\App;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\Target;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Class\CDC\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);ARM_MATH_CM4;ARM_MATH_MATRIX_CHECK;ARM_MATH_ROUNDING;DEBUG;USE_HAL_DRIVER;STM32F407xx;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);ARM_MATH_CM4;ARM_MATH_MATRIX_CHECK;ARM_MATH_ROUNDING;DEBUG;USE_HAL_DRIVER;STM32F407xx;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\App;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\Target;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Class\CDC\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\App;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\Target;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Class\CDC\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Building C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/testCmake.hex	Building C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/testCmake.bin</Message>
+      <Command>setlocal
+arm-none-eabi-objcopy -Oihex C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/RelWithDebInfo/testCmake.elf C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/testCmake.hex
+if %errorlevel% neq 0 goto :cmEnd
+arm-none-eabi-objcopy -Obinary C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/RelWithDebInfo/testCmake.elf C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/testCmake.bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies></AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mfloat-abi=hard -mfpu=fpv4-sp-d16 -Wl,-gc-sections,--print-memory-usage,-Map=C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/testCmake.map -mcpu=cortex-m4 -mthumb -mthumb-interwork -T C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/STM32F407VGTX_FLASH.ld</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ProgramDataBaseFile>C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/RelWithDebInfo/testCmake.elf.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake -BC:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild --check-stamp-file C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeASMInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\GNU-ASM.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\GNU.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Platform\Generic.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeBuild\CMakeFiles\3.24.2\CMakeASMCompiler.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeBuild\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeBuild\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeBuild\CMakeFiles\3.24.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeBuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake -BC:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild --check-stamp-file C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeASMInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\GNU-ASM.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\GNU.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Platform\Generic.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeBuild\CMakeFiles\3.24.2\CMakeASMCompiler.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeBuild\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeBuild\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeBuild\CMakeFiles\3.24.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeBuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake -BC:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild --check-stamp-file C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeASMInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\GNU-ASM.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\GNU.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Platform\Generic.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeBuild\CMakeFiles\3.24.2\CMakeASMCompiler.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeBuild\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeBuild\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeBuild\CMakeFiles\3.24.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeBuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake -BC:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild --check-stamp-file C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeBuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeASMInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\GNU-ASM.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\GNU.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Platform\Generic.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeBuild\CMakeFiles\3.24.2\CMakeASMCompiler.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeBuild\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeBuild\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeBuild\CMakeFiles\3.24.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeBuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Core\Inc\main.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Core\Inc\stm32f4xx_hal_conf.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Core\Inc\stm32f4xx_it.h" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Core\Src\main.c" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Core\Src\stm32f4xx_hal_msp.c" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Core\Src\stm32f4xx_it.c" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Core\Src\syscalls.c" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Core\Src\sysmem.c" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Core\Src\system_stm32f4xx.c" />
+    <None Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Core\Startup\startup_stm32f407vgtx.s" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h" />
+    <None Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Device\ST\STM32F4xx\LICENSE.txt">
+    </None>
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_armcc.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_armclang.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_compiler.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_gcc.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_iccarm.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\cmsis_version.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\core_armv8mbl.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\core_armv8mml.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\core_cm0.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\core_cm0plus.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\core_cm1.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\core_cm23.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\core_cm3.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\core_cm33.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\core_cm4.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\core_cm7.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\core_sc000.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\core_sc300.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\mpu_armv7.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\mpu_armv8.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include\tz_context.h" />
+    <None Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\LICENSE.txt">
+    </None>
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2s_ex.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_bus.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_cortex.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_dma.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_exti.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_gpio.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_i2c.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_pwr.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_rcc.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_system.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usb.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_utils.h" />
+    <None Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\LICENSE.txt">
+    </None>
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_hcd.c" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s.c" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s_ex.c" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_usb.c" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Class\CDC\Inc\usbh_cdc.h" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Class\CDC\Src\usbh_cdc.c" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_core.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_ctlreq.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_def.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_ioreq.h" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Core\Inc\usbh_pipes.h" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Core\Src\usbh_core.c" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Core\Src\usbh_ctlreq.c" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Core\Src\usbh_ioreq.c" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Core\Src\usbh_pipes.c" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\App\usb_host.c" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\App\usb_host.h" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\Target\usbh_conf.c" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\Target\usbh_conf.h" />
+    <ClCompile Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\Target\usbh_platform.c" />
+    <ClInclude Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\Target\usbh_platform.h" />
+    <None Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\STM32F407VGTX_FLASH.ld">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeBuild\ZERO_CHECK.vcxproj">
+      <Project>{B482FB79-0729-34C6-A780-9BBBCB11D639}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

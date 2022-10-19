@@ -1,0 +1,10 @@
+^C:\USERS\HOANG\STM32CUBEIDE\WORKSPACE_1.10.1\TESTCMAKE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake -BC:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/out/Visual --check-stamp-file C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/out/Visual/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

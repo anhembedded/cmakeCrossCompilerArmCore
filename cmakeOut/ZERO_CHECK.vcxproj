@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5B74957A-CB3F-3502-94CC-0CC83E6BFAAD}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\App;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\Target;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Class\CDC\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\App;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\Target;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Class\CDC\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\App;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\Target;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Class\CDC\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\App;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\USB_HOST\Target;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Core\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Middlewares\ST\STM32_USB_Host_Library\Class\CDC\Inc;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Device\ST\STM32F4xx\Include;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\Drivers\CMSIS\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeOut\CMakeFiles\dd88fb3ce48641643ba76896f83cd9ef\generate.stamp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake -BC:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeOut --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeOut/testCmake.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeASMInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\GNU-ASM.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\GNU.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Platform\Generic.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\CMakeLists.txt;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeOut\CMakeFiles\3.24.2\CMakeASMCompiler.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeOut\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeOut\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeOut\CMakeFiles\3.24.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeOut\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake -BC:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeOut --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeOut/testCmake.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeASMInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\GNU-ASM.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\GNU.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Platform\Generic.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\CMakeLists.txt;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeOut\CMakeFiles\3.24.2\CMakeASMCompiler.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeOut\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeOut\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeOut\CMakeFiles\3.24.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeOut\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake -BC:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeOut --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeOut/testCmake.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeASMInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\GNU-ASM.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\GNU.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Platform\Generic.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\CMakeLists.txt;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeOut\CMakeFiles\3.24.2\CMakeASMCompiler.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeOut\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeOut\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeOut\CMakeFiles\3.24.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeOut\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake -BC:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeOut --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/hoang/STM32CubeIDE/workspace_1.10.1/testCmake/cmakeOut/testCmake.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeASMInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\GNU-ASM.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\GNU.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\Platform\Generic.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\CMakeLists.txt;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeOut\CMakeFiles\3.24.2\CMakeASMCompiler.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeOut\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeOut\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeOut\CMakeFiles\3.24.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\hoang\STM32CubeIDE\workspace_1.10.1\testCmake\cmakeOut\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
